@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" defer></script>
 </head>
 
 <body>
@@ -24,13 +26,15 @@
         </ul>
     </nav>
     <!-- about -->
-    <section id="Home">
-        <img src="/img/home/about-profileImg.png" alt="Ryan's profile photo" class="home__avartar">
-        <h1 class="home__title">Hello,<br />I'm Dream Coder</h1>
-        <h2 class="home__description">
-            A software Enginner currently residing in Sydney, Australia.
-        </h2>
-        <button class="home__button">Contact me</button>
+    <section id="home">
+        <div class="home">
+            <img src="/img/home/home-profile.png" alt="Ryan's profile photo" class="home__avartar">
+            <h1 class="home__title">Hello,<br />I'm Dream Coder</h1>
+            <h2 class="home__description">
+                A software Enginner currently residing in Sydney, Australia.
+            </h2>
+            <button class="home__button">Contact me</button>
+        </div>
     </section>
     <section id="about">
         <h1>About me</h1>
@@ -86,7 +90,58 @@
         </div>
     </section>
     <!-- skills -->
-    <section id="skills"></section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, velit mollitia! Alias neque est corporis
+            fugiat adipisci dignissimos impedit quidem nihil vero, cum corrupti eaque eos, veniam qui accusamus nisi!
+        </p>
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title">Skills</h3>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>HTML</span>
+                        <span>99%</span>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>CSS</span>
+                        <span>75%</span>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>JavaScript</span>
+                        <span>50%</span>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skillset__right">
+                <div class="tolls">
+                    <h3 class="skillset__title">Tools</h3>
+                    <li><span>VS Code</span></li>
+                    <li><span>VS 2022</span></li>
+                    <li><span>Atom</span></li>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title">Etc</h3>
+                    <li><span>Git</span></li>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- work -->
     <section id="work"></section>
     <!-- testimonials -->
